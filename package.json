@@ -1,5 +1,5 @@
 {
-  "name": "back-end",
+  "name": "rouse-strapi",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,9 +11,8 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "knex": "0.21.5",
-    "pg": "^8.3.3",
-    "sqlite3": "latest",
+    "knex": "<0.20.0",
+    "pg": "latest",
     "strapi": "3.1.4",
     "strapi-admin": "3.1.4",
     "strapi-connector-bookshelf": "3.1.4",
@@ -29,7 +28,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "73bcdd26-1be3-4ee8-89ad-d8b5835beb51"
+    "uuid": "e3d6b696-a9af-4050-83a7-f082c97ee476"
   },
   "engines": {
     "node": ">=10.0.0",

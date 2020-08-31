@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
     url: "https://admin.rouse.yoga",
     serveAdminPanel: false,
     auth: {
-      secret: env("ADMIN_JWT_SECRET", "6bfb8c3b741c9e430947cb8be8736da1"),
+      secret: env("ADMIN_JWT_SECRET", "1f89e1f5df43ebd5decd1c9a60b0b8b2"),
     },
   },
 });
