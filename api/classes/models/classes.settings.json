@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "classes",
+  "info": {
+    "name": "Classes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "date": {
+      "type": "datetime"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "classes",
+      "dominant": true
+    },
+    "maxCapacity": {
+      "type": "integer"
+    }
+  }
+}
