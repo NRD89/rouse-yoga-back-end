@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/digital-membership-forms",
+      "handler": "digital-membership-form.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/digital-membership-forms/count",
+      "handler": "digital-membership-form.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/digital-membership-forms/:id",
+      "handler": "digital-membership-form.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/digital-membership-forms",
+      "handler": "digital-membership-form.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/digital-membership-forms/:id",
+      "handler": "digital-membership-form.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/digital-membership-forms/:id",
+      "handler": "digital-membership-form.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

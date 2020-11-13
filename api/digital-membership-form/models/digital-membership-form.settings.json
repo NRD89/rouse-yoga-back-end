@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "digital_membership_forms",
+  "info": {
+    "name": "Digital Membership Form Submission",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    }
+  }
+}
