@@ -2,7 +2,7 @@
   "name": "rouse-strapi",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Rouse Yoga back end",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
